@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 0px;
+        line-height: 48px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+      }
+      h3 {
+        text-align: center;
+        list-style-type: none;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      hr {
+        border: none;
+        height: 20px;
+      }
+      p {
+        text-align: center;
+        display: block;
+      }
+      .update {
+        color: #1a64d6;
+      }
+      .temperature {
+        font-weight: lighter;
+      }
+      .nested {
+        margin-top: 10px;
+        color: #4b4a46;
+      }
+      .coder {
+        font-size: 18px;
+        color: #4b4b4b;
+        font-family: monospace;
+      }
+      button {
+        color: #fefefe;
+        background-color: #1a64d6;
+        font-size: 16px;
+        display: block;
+        margin: 20px auto;
+        padding: 15px 24px;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        transition: all 200ms ease-in-out;
+        line-height: 20px;
+      }
+      button:hover {
+        background: #841433;
+        color: #fefefe;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>
+        🌤
+        <br />
+        <span class="update">Currently 21º in Tokyo</span>
+      </h1>
+      <h2><span class="temperature">13º </span>/ 23º</h2>
+      <h3>
+        <un>
+          <hr />
+          <li>
+            🌨Tomorrow
+            <un>
+              <li class="nested"><span class="temperature">10º </span>/ 22º</li>
+            </un>
+          </li>
+          <hr />
+          <li>
+            🌥 Saturday
+            <un>
+              <li class="nested"><span class="temperature">15º </span>/ 17º</li>
+            </un>
+          </li>
+          <hr />
+          <li>
+            ☀️ Sunday
+            <un>
+              <li class="nested"><span class="temperature">25º </span>/ 28º</li>
+            </un>
+          </li>
+        </un>
+      </h3>
+      <hr />
+      <button>Change City</button>
+      <p class="coder">Coded by Qhama Hani</p>
+    </div>
+  </body>
+</html>

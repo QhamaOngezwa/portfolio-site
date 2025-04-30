@@ -56,6 +56,15 @@
         color: #fefefe;
         cursor: pointer;
       }
+      .box {
+        align-content: center;
+        width: 370px;
+        height: 97px;
+        border-radius: 5px;
+      }
+      .box:hover {
+        background-color: #f7e9a6;
+      }
       .update {
         color: #1a64d6;
       }
@@ -83,21 +92,21 @@
       <h2><span class="temperature">13º </span>/ 23º</h2>
          <hr />
       <ul>
-          <li>
+          <li class="box">
             🌨Tomorrow
             <ul>
               <li class="nested"><span class="temperature">10º </span>/ 22º</li>
             </ul>
           </li>
           
-          <li>
+          <li class="box">
             🌥 Saturday
             <ul>
               <li class="nested"><span class="temperature">15º </span>/ 17º</li>
             </ul>
           </li>
           
-          <li>
+          <li class="box">
             ☀️ Sunday
             <ul>
               <li class="nested"><span class="temperature">25º </span>/ 28º</li>

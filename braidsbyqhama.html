@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BraidsByQhama</title>
+    <style>
+      body {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChpvg1fhu3DiWhiciCKccXFjF6Gs1TV8TAA&s);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #b16b75;
+        font-size: 40px;
+        text-align: center;
+        font: italic;
+      }
+
+      h2 {
+        color: black;
+        font-size: large;
+        text-align: center;
+      }
+
+      .zigzag-row {
+        display: flex;
+        align-items: normal;
+        justify-content: center;
+        margin: 40px 0;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+
+      .zigzag-row.reverse {
+        flex-direction: row-reverse;
+      }
+      .image-wrapper {
+        background-color: #e38798;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        border-radius: 5px;
+      }
+      .image-wrapper img {
+        width: 140px;
+        height: 200px;
+        display: block;
+      }
+      .price-list strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: black;
+      }
+      .price-list li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-bottom: 5px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><em>BraidsByQhama</em></h1>
+
+    <h2><em>(All prices include hairpiece)</em></h2>
+
+    <!-- Row 1 -->
+    <div class="zigzag-row">
+      <div class="image-wrapper">
+        <img src="images/braids7.jpeg" alt="Small Knotless Braids" />
+      </div>
+
+      <ul class="price-list">
+        <strong>Small Knotless Braids</strong>
+        <li>Shoulder length: R380</li>
+        <li>Waist length: R550</li>
+        <li>Butt length: R580</li>
+      </ul>
+      <ul class="price-list">
+        <strong>Small Traditional Braids</strong>
+        <li>Shoulder length: R380</li>
+        <li>Waist length: R550</li>
+        <li>Butt length: R580</li>
+      </ul>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="zigzag-row reverse">
+      <div class="image-wrapper">
+        <img src="images/braids2.jpeg" alt="Medium Knotless Braids" />
+      </div>
+
+      <ul class="price-list">
+        <strong>Medium Traditional Braids</strong>
+        <li>Shoulder length: R330</li>
+        <li>Waist length: R450</li>
+        <li>Butt length: R480</li>
+      </ul>
+
+      <ul class="price-list">
+        <strong>Medium Knotless Braids</strong>
+        <li>Shoulder length: R330</li>
+        <li>Waist length: R450</li>
+        <li>Butt length: R480</li>
+      </ul>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="zigzag-row">
+      <div class="image-wrapper">
+        <img src="images/braids5.jpeg" alt="Large Knotless Braids" />
+      </div>
+      <ul class="price-list">
+        <strong>Large Knotless Braids</strong>
+        <li>Waist length: R400</li>
+        <li>Butt length: R420</li>
+      </ul>
+      <ul class="price-list">
+        <strong>Large Traditional Braids</strong>
+        <li>Waist length: R400</li>
+        <li>Butt length: R420</li>
+      </ul>
+    </div>
+  </body>
+</html>
